@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <errno.h>
 #include <string.h>
-#include <math.h>
 
 #include "calculos.h"
 
@@ -23,11 +22,9 @@ int main(){
 
         quad = quadrado(a);
         cb = cubo(a);
-        rsqrt = sqrt(a);
 
         fprintf(arquivo, "\nO quadrado de %d é: %d\n", a, quad);
         fprintf(arquivo, "\nO cubo de %d é: %d", a, cb);
-        fprintf(arquivo, "\nA raiz quadrada de %d é %lf", a, rsqrt);
 
         printf("\nO programa foi executado.\n");
 
