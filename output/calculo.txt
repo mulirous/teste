@@ -1,0 +1,11 @@
+Número 6
+
+O quadrado de 6 é: 36
+
+O cubo de 6 é: 216
+
+Número 12
+
+O quadrado de 12 é: 144
+
+O cubo de 12 é: 1728
